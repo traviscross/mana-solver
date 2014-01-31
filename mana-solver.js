@@ -65,6 +65,7 @@ function test_solve() {
   assert(solve([[1],[1,2],[1,2,3]],[1,1,2])==true)
   assert(solve([[1],[1,2],[1,2,3]],[1,1,3])==true)
   assert(solve([[1],[1,2],[1,2,3]],[3,1,1])==true)
+  assert(solve([[1,2,3],[1,2],[1]],[1,2,3])==true)
   assert(solve([[1],[1,2],[1,2,3]],[1,1,1,1])==false)
   assert(solve([[1],[1,2],[1,2,3]],[1,2,3,1])==false)
   assert(solve([[1],[1,2],[1,2,3]],[1,3,3])==false)
